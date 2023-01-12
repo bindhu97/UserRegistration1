@@ -49,6 +49,19 @@ namespace UserRegistration1
             {
                 Console.WriteLine("Your entered emailId is in invalid pattern");
             }
+
+            //UC4
+            Regex MobileNo = new Regex("^[0-9]{2}[ ][6-9]{1}[0-9]{9}$");
+            Console.WriteLine("Enter your mobile number: ");
+            string mobileno = Console.ReadLine();
+            if (MobileNo.IsMatch(mobileno))
+            {
+                Console.WriteLine("Your mobile number is: " + mobileno);
+            }
+            else
+            {
+                Console.WriteLine("Your entered mobile number is in invalid pattern");
+            }
         }
     }
 }
