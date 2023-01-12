@@ -65,5 +65,21 @@ namespace UserTest
             //Assert
             Assert.AreEqual(expected, PassWord4);
         }
+        [TestMethod]
+        [DataRow("Bin321@gmail.com")]
+        [DataRow("Bin987@gmail.com.in")]
+        [DataRow("Bin.97@gmail.com")]
+        [DataRow("Bin123@gml.com")]
+        [DataRow("Bin.089@gmail.com.in")]
+        public void Validate_Multiple_Email_Enteries(string EmailId)
+        {
+            //Arrange
+            RegistrationOfUser user = new RegistrationOfUser();
+            bool expected = true;
+            //Act
+            bool result = user.Equals(EmailId);
+            //Assert
+            Assert.AreEqual(expected, result);
+        }
     }
 }

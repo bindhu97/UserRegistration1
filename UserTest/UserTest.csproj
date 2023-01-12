@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EmailCheck\EmailCheck.csproj" />
     <ProjectReference Include="..\UserRegistration1\UserRegistration1.csproj" />
   </ItemGroup>
 
