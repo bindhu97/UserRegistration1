@@ -1,0 +1,15 @@
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\bin\Debug\net6.0\UserRegistration1.exe
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\bin\Debug\net6.0\UserRegistration1.deps.json
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\bin\Debug\net6.0\UserRegistration1.runtimeconfig.json
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\bin\Debug\net6.0\UserRegistration1.dll
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\bin\Debug\net6.0\UserRegistration1.pdb
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\obj\Debug\net6.0\UserRegistration1.csproj.AssemblyReference.cache
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\obj\Debug\net6.0\UserRegistration1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\obj\Debug\net6.0\UserRegistration1.AssemblyInfoInputs.cache
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\obj\Debug\net6.0\UserRegistration1.AssemblyInfo.cs
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\obj\Debug\net6.0\UserRegistration1.csproj.CoreCompileInputs.cache
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\obj\Debug\net6.0\UserRegistration1.dll
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\obj\Debug\net6.0\refint\UserRegistration1.dll
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\obj\Debug\net6.0\UserRegistration1.pdb
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\obj\Debug\net6.0\UserRegistration1.genruntimeconfig.cache
+C:\Users\91973\source\repos\UserRegistration1\UserRegistration1\obj\Debug\net6.0\ref\UserRegistration1.dll
