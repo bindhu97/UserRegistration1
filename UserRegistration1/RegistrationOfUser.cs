@@ -23,6 +23,7 @@ namespace UserRegistration1
             {
                 Console.WriteLine("Your entered name is in invalid pattern");
             }
+
             //UC2
             Regex LastName = new Regex("^[A-Z]{1}[a-z]{2,}$");
             Console.WriteLine("Enter your Last Name:");
@@ -34,6 +35,19 @@ namespace UserRegistration1
             else
             {
                 Console.WriteLine("Your entered last name is in invalid pattern");
+            }
+
+            //UC3
+            Regex EmailId = new Regex("^[a-z]{1,}[.][a-z]{1,}[0-9]{0,}[@][a-z]{1,}[.][a-z]{1,3}[.]{0,}[a-z]{0,2}$");
+            Console.WriteLine("Enter your EmailId: ");
+            string emailid = Console.ReadLine();
+            if (EmailId.IsMatch(emailid))
+            {
+                Console.WriteLine("Your emailId is: " + emailid);
+            }
+            else
+            {
+                Console.WriteLine("Your entered emailId is in invalid pattern");
             }
         }
     }
