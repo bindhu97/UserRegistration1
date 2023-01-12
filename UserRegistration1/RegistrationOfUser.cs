@@ -75,6 +75,19 @@ namespace UserRegistration1
             {
                 Console.WriteLine("Your entered password1 is in invalid pattern");
             }
+
+            //UC6
+            Regex PassWord2 = new Regex("^[A-Z]{1}[a-zA-Z0-9]{7}$");
+            Console.WriteLine("Enter your password here: ");
+            string password2 = Console.ReadLine();
+            if (PassWord2.IsMatch(password2))
+            {
+                Console.WriteLine("Your password2 is: " + password2);
+            }
+            else
+            {
+                Console.WriteLine("Your entered password2 is in invalid pattern");
+            }
         }
     }
 }
