@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserRegistration1", "UserRegistration1\UserRegistration1.csproj", "{FECA7A9D-B8D0-433E-8CE5-6B154C20C771}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailCheck", "EmailCheck\EmailCheck.csproj", "{0E55E5D4-AC0A-4478-9C0A-67511B18020C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailCheck", "EmailCheck\EmailCheck.csproj", "{0E55E5D4-AC0A-4478-9C0A-67511B18020C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserTest", "UserTest\UserTest.csproj", "{183B8FF2-5A08-49D0-9CA0-8E557E79E142}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0E55E5D4-AC0A-4478-9C0A-67511B18020C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E55E5D4-AC0A-4478-9C0A-67511B18020C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E55E5D4-AC0A-4478-9C0A-67511B18020C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{183B8FF2-5A08-49D0-9CA0-8E557E79E142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183B8FF2-5A08-49D0-9CA0-8E557E79E142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183B8FF2-5A08-49D0-9CA0-8E557E79E142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183B8FF2-5A08-49D0-9CA0-8E557E79E142}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
