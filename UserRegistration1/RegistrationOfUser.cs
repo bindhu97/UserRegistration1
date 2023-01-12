@@ -62,6 +62,19 @@ namespace UserRegistration1
             {
                 Console.WriteLine("Your entered mobile number is in invalid pattern");
             }
+
+            //UC5
+            Regex PassWord1 = new Regex("^[a-zA-Z0-9]{8}$");
+            Console.WriteLine("Enter your password here: ");
+            string password1 = Console.ReadLine();
+            if (PassWord1.IsMatch(password1))
+            {
+                Console.WriteLine("Your password1 is: " + password1);
+            }
+            else
+            {
+                Console.WriteLine("Your entered password1 is in invalid pattern");
+            }
         }
     }
 }
